@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+</head>
+<body>
+    <center>
+        <h1 style="font-size: 44px; color: red;">Contact Form</h1>
+    
+        <hr>
+
+        <form action="mailto:tjnid3710@gmial.com" method="post" enctype="text/plain">
+
+            <table cellspacing="3" cellpadding="15">
+                
+                <tr>
+                    <th><label for="fname">First Name:</label></th>
+                    <td><input type="text" name="fname" id="fname" placeholder="your first name..." /></td>
+                </tr>
+                
+                
+                <tr>
+                    <th><label for="lname">Last Name:</label></th>
+                    <td><input type="text" name="lname" id="lname" placeholder="your last name..." /></td>
+                </tr>
+                
+
+                <tr>
+                    <th><label for="email">Enter E-mail:</label></th>
+                    <td><input type="text" name="email" id="email" placeholder="enter your e-mail..." /></td>
+                </tr>
+
+                <tr>
+                    <th><label for="mobno">Mobile Number:</label></th>
+                    <td><input type="text" name="mobno" id="mobno" placeholder="your mobile number..."></td>
+                </tr>
+
+                <tr>
+                    <th><label>Select Geneder:</label></th>
+                    <td>
+                        <label for="male">MALE</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                        <label for="female">FEMALE</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th><label for="reason">Reason:</label></th>
+                    <td>
+                        <textarea name="reason" id="reason" cols="30" rows="2" placeholder="Why You Want to Contact Me?"></textarea>
+                    </td>
+                </tr>
+
+            </table>
+
+            <table cellspacing="3" cellpadding="10">
+                <tr>
+                    <td><input type="submit" name="submit" value="Submit"></td>
+                    <td><input type="reset" name="clear" value="Clear"></td>
+                </tr>
+            </table>
+            
+        </form>
+    </center>
+</body>
+</html>
